@@ -12,6 +12,7 @@ function App() {
       <div className='name'>
         <div id='one'>Hello, I'm</div>
         <div id='two'>Jashanpreet Singh</div>
+        <div>jlksdjfksdfdgit</div>
       </div>
 
       <div className='intro'>
