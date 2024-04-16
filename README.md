@@ -1,1 +1,1 @@
-File to explain things in detail
+This is my personal website about myself, and my projects, resume etc. 
