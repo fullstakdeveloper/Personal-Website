@@ -1,0 +1,100 @@
+/* This it the first section ################################################### */
+.App {
+  height: fit-content;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.name #one {
+  color: white;
+  font-size: 3vh;
+}
+
+.name #two {
+  color: white;
+  font-size: 4.5vh;
+}
+
+/* This is the second section ###################################################*/
+.intro {
+  color: white;
+  width: 60vw;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px 20px 20px;
+  background-color: rgb(80, 71, 83);
+  margin-bottom: 20px;
+}
+
+.intro #one1 {
+  width: 1200px;;
+  height: fit-content;
+  line-height: 50px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.intro #two1 {
+  width: 45%;
+  height: fit-content;
+  width: fit-content;
+}
+
+.intro #two1 img {
+  height: 500px;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+
+
+@media screen and (max-width: 1950px){
+  .intro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro #two1 img {
+    padding-bottom: 20px;
+  }
+
+  .intro #one1 {
+    width: 900px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+}
+
+@media screen and (max-width: 1280px){
+  .intro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro #two1 img {
+    padding-bottom: 20px;
+  }
+
+  .intro #one1 {
+    width: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+}
