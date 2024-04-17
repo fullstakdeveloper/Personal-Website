@@ -1,0 +1,36 @@
+.projects {
+    color: white;
+}
+
+.projects #one2, #two2{
+    width: 300px;
+    height: 400px;
+}
+
+.projects .pages {
+    display: flex;
+    flex-direction: row;
+}
+
+.projects .pages #one2, #two2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 810px;
+    height: 600px;
+    border-radius: 50px;
+    background-color: rgb(80, 71, 83);
+    text-align: center;
+    font-size: 20px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects .title {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+

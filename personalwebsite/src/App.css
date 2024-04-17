@@ -59,8 +59,24 @@
   height: 500px;
   border-radius: 50px;
   margin-left: 20px;
+  margin-top: 20px;
 }
 
+.intro #one1 #links a {
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  border: solid white;
+}
+
+.intro #one1 #links a:hover {
+  background-color: rgb(57, 50, 59)
+}
+
+.intro #one1 #links {
+  margin-top: 20px;
+  text-align: center;
+}
 
 
 @media screen and (max-width: 1950px){
@@ -89,10 +105,11 @@
 
   .intro #two1 img {
     padding-bottom: 20px;
+    margin-left: 0px;
   }
 
   .intro #one1 {
-    width: 500px;
+    width: 300px;
     padding-left: 30px;
     padding-right: 30px;
   }
