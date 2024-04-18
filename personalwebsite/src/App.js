@@ -12,27 +12,24 @@ function App() {
   return (
     <div className="App" >
 
-      <div className='name'>
-        <motion.div id='one'
-           whileHover={{
-            scale: 1.2,
-            transition: { duration: 1 },
-          }}
-          whileTap={{ scale: 0.9 }}
-        >
-          Hello, This is
-        </motion.div>
+      <motion.div className='name'
+        animate = {{scale: 2, y: 25}}
+        transition={{ type: "spring", stiffness: 100, duration: 2, delay: 0.6}}
+      >
+        <div id='one'>
+          This is
+        </div>
 
-        <motion.div id='two'>Jashan Singh</motion.div>
-      </div>
+        <motion.div id='two'>Jashan Singh.</motion.div>
+      </motion.div>
 
       <div className='intro'>
         <div id='one1'>
           <div>{intro_text}</div>
 
           <div id="links">
-            <a>Linked In</a>
-            <a>Github</a>
+            <a href='https://www.linkedin.com/in/jashan-singh-48b9592a0/' target = "_blank">Linked In</a>
+            <a href = 'https://github.com/fullstakdeveloper' target = '_blank'>Github</a>
           </div>
 
         </div>
@@ -40,7 +37,6 @@ function App() {
         <div id='two1'><img src={PXL_20230731_183533541}></img></div>
       </div>
 
-      <Project></Project>
 
     </div>
   );

@@ -1,7 +1,7 @@
 /* This it the first section ################################################### */
 .App {
   height: fit-content;
-  background-color: rgb(30, 75, 99);
+  background-color: black;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -17,12 +17,12 @@
 }
 
 .name #one {
-  color: white;
+  color: rgb(12, 65, 135);
   font-size: 50px;
 }
 
 .name #two {
-  color: white;
+  color: rgb(12, 65, 135);
   font-size: 80px;
 }
 
@@ -63,7 +63,12 @@
   width: 200px;
   display: inline-block;
   text-align: center;
-  border: solid white;
+  border: solid white 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  color: white;
+  text-decoration: none;
 }
 
 .intro #one1 #links a:hover {

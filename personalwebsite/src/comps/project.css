@@ -4,16 +4,29 @@
     flex-direction: column;
 }
 
-.column {
+.project #title2 {
+    color: white;
+    font-size: 40px;
+    background-color:  rgb(12, 65, 135);
+    width: 1690px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.column1 {
     display: flex;
     flex-direction: row;
 }
 
 
 .column #c1, #c2 {
-    width: 815px;
+    width: 830px;
     height: 600px;
-    border: solid red;
+    background-color: rgb(12, 65, 135);
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
 }
 
 .column #c1 {
