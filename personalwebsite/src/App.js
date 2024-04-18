@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Project from './comps/project';
 
+
 function App() {
 
   const intro_text = "Jashan is a curious and motivated individual who has developed programming skills as a result of his childhood love for Lego building. With a sharp attention to detail and a natural talent for problem-solving, he has expertly transformed simple bricks into intricate structures, applying coding principles to bring his creations to life. Jashan's journey into programming began when his father enrolled him in a web development course. What started as a simple step soon turned into an exhilarating adventure, as he discovered the endless possibilities that coding could unlock. Jashan's exploration continued to include the dynamic languages of Python and JavaScript. With each line of code, he found the artistry in simplicity, the logic in complexity, and the limitless potential of React's component-based architecture. Join him on this captivating journey, where every click and scroll reveals a story of growth, mastery, and the boundless horizons of programming prowess."
