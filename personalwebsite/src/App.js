@@ -12,8 +12,17 @@ function App() {
     <div className="App" >
 
       <div className='name'>
-        <div id='one'>Hello, I'm</div>
-        <div id='two'>Jashanpreet Singh</div>
+        <motion.div id='one'
+           whileHover={{
+            scale: 1.2,
+            transition: { duration: 1 },
+          }}
+          whileTap={{ scale: 0.9 }}
+        >
+          Hello, This is
+        </motion.div>
+
+        <motion.div id='two'>Jashan Singh</motion.div>
       </div>
 
       <div className='intro'>

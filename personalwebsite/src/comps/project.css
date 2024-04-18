@@ -1,0 +1,26 @@
+.project {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.column #c1, #c2 {
+    width: 815px;
+    height: 600px;
+    border: solid red;
+}
+
+.column #c1 {
+    margin-right: 15px;
+
+}
+
+.column #c2 {
+    margin-left: 15px;
+}
