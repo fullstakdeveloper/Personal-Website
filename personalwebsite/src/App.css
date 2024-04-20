@@ -18,7 +18,7 @@
 
 .name #one {
   color: rgb(12, 65, 135);
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .name #two {
@@ -36,6 +36,9 @@
   background-color: rgb(12, 65, 135);
   margin-bottom: 20px;
   width: 1650px;
+  align-items: center;
+  border-radius: 30px;
+  
 }
 
 .intro #one1 {
@@ -44,7 +47,7 @@
   line-height: 50px;
   font-size: 20px;
   margin-right: 20px;
-  text-align: justify;
+  text-align: left;
 }
 
 .intro #two1 {
@@ -56,7 +59,7 @@
 .intro #two1 img {
   height: 500px;
   margin-left: 20px;
-  margin-top: 20px;
+  border-radius: 30px;
 }
 
 .intro #one1 #links a {
@@ -64,11 +67,12 @@
   display: inline-block;
   text-align: center;
   border: solid white 1px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 30px;
   color: white;
   text-decoration: none;
+  border-radius: 15px;
 }
 
 .intro #one1 #links a:hover {
