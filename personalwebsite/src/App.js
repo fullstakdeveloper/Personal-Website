@@ -39,7 +39,7 @@ function App() {
         
       </div>
 
-
+      <Project/>
     </div>
   );
 }

@@ -2,24 +2,27 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 40px;
 }
 
 .project #title2 {
     color: white;
     font-size: 40px;
     background-color:  rgb(12, 65, 135);
-    width: 1690px;
+    width: 700px;
     margin-bottom: 20px;
     text-align: center;
+    border-radius: 30px;
 }
 
 .column1 {
     display: flex;
     flex-direction: row;
+    border-radius: 30px;
 }
 
 
-.column #c1, #c2 {
+.column1 #c1, #c2 {
     width: 830px;
     height: 600px;
     background-color: rgb(12, 65, 135);
@@ -27,13 +30,23 @@
     text-align: center;
     color: white;
     margin-bottom: 20px;
+    border-radius: 30px;
 }
 
-.column #c1 {
+.column1 #c1 {
     margin-right: 15px;
 
 }
 
-.column #c2 {
+.column1 #c2 {
     margin-left: 15px;
+}
+
+@media screen and (max-width: 1950px) {
+    .column1 {
+        flex-direction: column;
+    }
+    .column1 #c1, #c2 {
+        margin-left: 0px;
+    }
 }
