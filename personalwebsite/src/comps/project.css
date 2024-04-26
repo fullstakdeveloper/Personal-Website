@@ -3,19 +3,21 @@
     align-items: center;
     flex-direction: column;
     margin-top: 40px;
+
 }
 
 .project #title2 {
-    color: white;
+    color: rgb(255, 196, 112);
     font-size: 40px;
-    background-color:  rgb(12, 65, 135);
+    background-color: rgb(71, 147, 175);
     width: 700px;
     margin-bottom: 20px;
     text-align: center;
     border-radius: 30px;
+    margin-bottom: 40px;
 }
 
-.column1 {
+.column1, .column2{
     display: flex;
     flex-direction: row;
     border-radius: 30px;
@@ -23,30 +25,46 @@
 
 
 .column1 #c1, #c2 {
-    width: 830px;
-    height: 600px;
-    background-color: rgb(12, 65, 135);
-    font-size: 30px;
-    text-align: center;
-    color: white;
+    width: 790px;
+    height: 800px;
+    background-color: rgb(71, 147, 175);
+    color: rgb(255, 196, 112);
     margin-bottom: 20px;
     border-radius: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .column1 #c1 {
     margin-right: 15px;
-
 }
 
 .column1 #c2 {
     margin-left: 15px;
 }
 
+.column1 #c1 p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.column1 #c2 p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
 @media screen and (max-width: 1950px) {
     .column1 {
         flex-direction: column;
     }
-    .column1 #c1, #c2 {
+    .column1 #c1 {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .column1 #c2 {
+        margin-right: 0px;
         margin-left: 0px;
     }
 }

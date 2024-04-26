@@ -14,30 +14,33 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  color: rgb(255, 196, 112);
+  font-weight: 500;
 }
 
 .name #one {
-  color: rgb(12, 65, 135);
+  color: rgb(255, 196, 112);
   font-size: 30px;
 }
 
 .name #two {
-  color: rgb(12, 65, 135);
+  color: rgb(255, 196, 112);
   font-size: 80px;
 }
 
 /* This is the second section ###################################################*/
 .intro {
-  color: white;
+  color: rgb(255, 196, 112);
   height: fit-content;
   display: flex;
   justify-content: center;
   padding: 20px 20px 20px 20px;
-  background-color: rgb(12, 65, 135);
+  background-color: rgb(71, 147, 175);
   margin-bottom: 20px;
   width: 1650px;
   align-items: center;
   border-radius: 30px;
+  font-weight: 500;
   
 }
 
@@ -66,17 +69,17 @@
   width: 200px;
   display: inline-block;
   text-align: center;
-  border: solid white 1px;
+  border: solid rgb(255, 196, 112) 3px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 30px;
-  color: white;
+  color:rgb(255, 196, 112);
   text-decoration: none;
   border-radius: 15px;
 }
 
 .intro #one1 #links a:hover {
-  background-color: rgb(57, 50, 59)
+  background-color: rgb(221, 87, 70);
 }
 
 .intro #one1 #links {
