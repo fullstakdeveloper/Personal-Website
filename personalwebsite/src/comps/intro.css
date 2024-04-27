@@ -1,0 +1,121 @@
+/* This it the first section ################################################### */
+
+  
+  .name {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 196, 112);
+    font-weight: 500;
+  }
+  
+  .name #one {
+    color: rgb(255, 196, 112);
+    font-size: 30px;
+  }
+  
+  .name #two {
+    color: rgb(255, 196, 112);
+    font-size: 80px;
+  }
+  
+  /* This is the second section ###################################################*/
+  .intro {
+    color: rgb(255, 196, 112);
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(30, 30, 30);
+    border: solid 3px rgb(255, 196, 112);
+    margin-bottom: 20px;
+    width: 1650px;
+    align-items: center;
+    border-radius: 30px;
+    font-weight: 500;
+    
+  }
+  
+  .intro #one1 {
+    width: 1200px;
+    height: fit-content;
+    line-height: 50px;
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: left;
+  }
+  
+  .intro #two1 {
+    width: 45%;
+    height: fit-content;
+    width: fit-content;
+  }
+  
+  .intro #two1 img {
+    height: 500px;
+    margin-left: 20px;
+    border-radius: 30px;
+  }
+  
+  .intro #one1 #links a {
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    border: solid rgb(255, 196, 112) 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:rgb(255, 196, 112);
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  
+  .intro #one1 #links {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  
+  @media screen and (max-width: 1950px){
+    .intro {
+      flex-direction: column;
+      align-items: center;
+      width: 950px;
+    }
+  
+    .intro #two1 img {
+      padding-bottom: 20px;
+      margin-left: 0px;
+    }
+  
+    .intro #one1 {
+      width: 900px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 1280px){
+    .intro {
+      flex-direction: column;
+      align-items: center;
+      width: 400px;
+    }
+  
+    .intro #two1 img {
+      padding-bottom: 20px;
+      margin-left: 0px;
+    }
+  
+    .intro #one1 {
+      width: 375px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+  }
+  

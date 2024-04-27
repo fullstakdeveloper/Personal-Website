@@ -9,12 +9,15 @@
 .project #title2 {
     color: rgb(255, 196, 112);
     font-size: 40px;
-    background-color: rgb(71, 147, 175);
+    background-color:  rgb(30, 30, 30);
     width: 700px;
-    margin-bottom: 20px;
-    text-align: center;
+    margin-bottom: 70px;
     border-radius: 30px;
-    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border: solid 3px rgb(255, 196, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .column1, .column2{
@@ -27,12 +30,13 @@
 .column1 #c1, #c2 {
     width: 790px;
     height: 550px;
-    background-color: rgb(71, 147, 175);
+    background-color:  rgb(30, 30, 30);
     color: rgb(255, 196, 112);
     margin-bottom: 20px;
     border-radius: 30px;
     padding-right: 20px;
     padding-left: 20px;
+    border: solid 3px rgb(255, 196, 112);
 }
 
 .column1 #c1 div, .column1 #c2 div {
