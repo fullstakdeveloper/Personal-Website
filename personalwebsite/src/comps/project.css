@@ -26,13 +26,23 @@
 
 .column1 #c1, #c2 {
     width: 790px;
-    height: 800px;
+    height: 550px;
     background-color: rgb(71, 147, 175);
     color: rgb(255, 196, 112);
     margin-bottom: 20px;
     border-radius: 30px;
     padding-right: 20px;
     padding-left: 20px;
+}
+
+.column1 #c1 div, .column1 #c2 div {
+    height: 40px;
+    width: 100px;
+    border: solid 2px rgb(255, 196, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
 }
 
 .column1 #c1 {
@@ -46,13 +56,13 @@
 .column1 #c1 p {
     font-size: 20px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .column1 #c2 p {
     font-size: 20px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 40px;
 }
 @media screen and (max-width: 1950px) {
     .column1 {
