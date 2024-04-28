@@ -14,7 +14,7 @@
     margin-bottom: 70px;
     border-radius: 30px;
     padding-bottom: 10px;
-    border: solid 3px rgb(255, 196, 112);
+    /* border: solid 3px rgb(255, 196, 112); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,18 +31,18 @@
     width: 790px;
     height: 550px;
     background-color:  rgb(30, 30, 30);
-    color: rgb(255, 196, 112);
+    color: rgb(187, 187, 187);
     margin-bottom: 20px;
     border-radius: 30px;
     padding-right: 20px;
     padding-left: 20px;
-    border: solid 3px rgb(255, 196, 112);
+    /* border: solid 3px rgb(255, 196, 112); */
 }
 
 .column1 #c1 div, .column1 #c2 div {
     height: 40px;
     width: 100px;
-    border: solid 2px rgb(255, 196, 112);
+    border: solid 2px rgb(187, 187, 187);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,6 +63,12 @@
     line-height: 40px;
 }
 
+.column1 h1 {
+    color: rgb(255, 196, 112);
+    width: 100rm;
+    text-align: center;
+}
+
 .column1 #c2 p {
     font-size: 20px;
     font-weight: 500;
@@ -75,10 +81,12 @@
     .column1 #c1 {
         margin-right: 0px;
         margin-left: 0px;
+        width: 950px;
     }
 
     .column1 #c2 {
         margin-right: 0px;
         margin-left: 0px;
+        width: 950px;
     }
 }

@@ -1,5 +1,9 @@
 /* This it the first section ################################################### */
-
+.off_Intro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
   
   .name {
     height: 100vh;
@@ -23,13 +27,12 @@
   
   /* This is the second section ###################################################*/
   .intro {
-    color: rgb(255, 196, 112);
+    color: rgb(187, 187, 187);
     height: fit-content;
     display: flex;
     justify-content: center;
     padding: 20px 20px 20px 20px;
     background-color: rgb(30, 30, 30);
-    border: solid 3px rgb(255, 196, 112);
     margin-bottom: 20px;
     width: 1650px;
     align-items: center;
@@ -63,12 +66,12 @@
     width: 200px;
     display: inline-block;
     text-align: center;
-    border: solid rgb(255, 196, 112) 3px;
+    border: solid rgb(187, 187, 187) 3px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
-    color:rgb(255, 196, 112);
+    color: rgb(187, 187, 187);
     text-decoration: none;
     border-radius: 15px;
   }
@@ -78,7 +81,21 @@
     text-align: center;
   }
   
-  
+  .title3 {
+    color: rgb(255, 196, 112);
+    font-size: 40px;
+    background-color:  rgb(30, 30, 30);
+    width: 700px;
+    margin-bottom: 70px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    /* border: solid 3px rgb(255, 196, 112); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
   @media screen and (max-width: 1950px){
     .intro {
       flex-direction: column;
