@@ -29,12 +29,7 @@ function Project() {
                         <a>Github Link</a>
                     </motion.div>
                 </div>
-
-                <div className = 'column2'>
-                    <div id='c3'></div>
-                    <div if='c4'></div>
-
-                </div>
+        
             </div>
 
 
