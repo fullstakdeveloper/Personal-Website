@@ -1,3 +1,18 @@
  .exp {
     color: white;
  }
+
+ .exp .title4 {
+   color: rgb(255, 196, 112);
+   font-size: 40px;
+   background-color:  rgb(30, 30, 30);
+   width: 700px;
+   margin-top: 40px;
+   margin-bottom: 70px;
+   border-radius: 30px;
+   padding-bottom: 10px;
+   /* border: solid 3px rgb(255, 196, 112); */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }

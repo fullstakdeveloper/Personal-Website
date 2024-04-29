@@ -4,8 +4,7 @@ import './exp.css';
 function Exp() {
     return (
         <div className = 'exp'>
-
-            Experience section
+            <h1 className = "title4">Experiences</h1>
         </div>
     );
 }
