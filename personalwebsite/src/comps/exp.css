@@ -26,4 +26,16 @@
   border-radius: 30px;
   background-color: rgb(30, 30, 30);
   margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .exp .box1 h1, .box2 h1 {
+  color: rgb(255, 196, 112);
+  width: 100rm;
+ }
+
+ .exp .box1 p, .box2 p {
+  font-size: 20px;
  }
