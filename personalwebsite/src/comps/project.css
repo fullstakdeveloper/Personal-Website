@@ -28,8 +28,8 @@
 
 
 .column1 #c1, #c2 {
-    width: 790px;
-    height: 550px;
+    width: 690px;
+    height: 700px;
     background-color:  rgb(30, 30, 30);
     color: rgb(187, 187, 187);
     margin-bottom: 20px;
@@ -78,7 +78,7 @@
     font-weight: 500;
     line-height: 40px;
 }
-@media screen and (max-width: 1950px) {
+/* @media screen and (max-width: 1950px) {
     .column1 {
         flex-direction: column;
     }
@@ -93,10 +93,10 @@
         margin-left: 0px;
         width: 950px;
     }
-}
+} */
 
 
-@media screen and (max-width: 1280px) {
+/* @media screen and (max-width: 1280px) {
     .column1 #c1 {
         margin-right: 0px;
         margin-left: 0px;
@@ -108,4 +108,4 @@
         margin-left: 0px;
         width: 700px;
     }
-}
+} */
