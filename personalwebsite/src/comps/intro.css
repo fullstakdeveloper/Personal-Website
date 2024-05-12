@@ -100,7 +100,7 @@
   }
 
 
-  /* @media screen and (max-width: 1950px){
+  @media screen and (max-width: 1500px){
     .intro {
       flex-direction: column;
       align-items: center;
@@ -118,7 +118,7 @@
       padding-right: 30px;
     }
   
-  } */
+  }
   
   /* @media screen and (max-width: 1280px){
     .intro {
