@@ -13,7 +13,7 @@ function Exp() {
             >
                 <h1>Jamhacks 6</h1>
                 <p>Participating in JamHacks 6 was a pivotal experience in my coding journey, providing valuable lessons and skill development. Collaborating with diverse teams under tight deadlines honed my teamwork, communication, and adaptability. I gained hands-on experience in coding, debugging, and rapid prototyping, deepening my technical proficiency. Presenting our project enhanced my communication skills and ability to articulate ideas effectively. Overall, JamHacks 6 was a transformative experience, equipping me with the skills and confidence to thrive in dynamic tech environments.</p>
-            </motion.div>
+            </motion.div>      
 
 
             <motion.div className = 'box2'
