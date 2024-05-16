@@ -22,7 +22,7 @@
  .exp .box1, .box2 {
   display: flex;
   width: 1450px;
-  height: 400px;
+  height: 300px;
   border-radius: 30px;
   background-color: rgb(30, 30, 30);
   margin-bottom: 20px;

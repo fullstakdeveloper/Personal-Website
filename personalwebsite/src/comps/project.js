@@ -24,7 +24,9 @@ function Project() {
                     <motion.div
                     whileHover = {{scale: 0.9}}
                     >
-                        <a>Github Link</a>
+                        <a href = "https://github.com/sebandx/Protivity"
+                        target = "_blank"
+                        >Github Link</a>
                     </motion.div>
                  
                 </motion.div>
@@ -38,7 +40,10 @@ function Project() {
                     <motion.div
                     whileHover = {{scale: 0.9}}
                     >
-                        <a>Github Link</a>
+                        <a
+                        href = "https://github.com/BerryMachine/Senior-CCC-Python"
+                        target = "_blank"
+                        >Github Link</a>
                     </motion.div>
                 </motion.div>
         

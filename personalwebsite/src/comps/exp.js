@@ -5,7 +5,11 @@ import { motion, useScroll} from 'framer-motion';
 function Exp() {
     return (
         <div className = 'exp'>
-            <h1 className = "title4">Experiences</h1>
+            <motion.h1 className = "title4"
+            initial = {{opacity: 0}}
+            whileInView = {{opacity: 1, delay: 2, duration: 6}}
+            
+            >Experiences</motion.h1>
 
             <motion.div className = "box1"
             initial = {{opacity: 0}}

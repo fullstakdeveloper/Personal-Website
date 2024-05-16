@@ -26,6 +26,15 @@
     border-radius: 30px;
 }
 
+.column1 #c1 a {
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+}
+
+.column1 #c2 a {
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+}
 
 .column1 #c1, #c2 {
     width: 690px;
